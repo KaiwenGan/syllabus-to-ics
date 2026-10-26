@@ -1,0 +1,124 @@
+{
+  "calendar": {
+    "name": "示例课表 2026 秋",
+    "description": "syllabus-to-ics 最小可运行示例（虚构数据）",
+    "timezone": "+08:00",
+    "location_prefix": "示例大学"
+  },
+  "term": {
+    "first_monday": "2026-09-07",
+    "weeks": 18
+  },
+  "seasons": {
+    "winter_ranges": [
+      [
+        "10-01",
+        "04-30"
+      ]
+    ],
+    "_note": "10/1 起冬令时；上午节次不变，只有下午/晚上提前。"
+  },
+  "periods": {
+    "1-2": {
+      "summer": [
+        "08:00",
+        "09:35"
+      ],
+      "winter": [
+        "08:00",
+        "09:35"
+      ]
+    },
+    "3-4": {
+      "summer": [
+        "09:50",
+        "11:25"
+      ],
+      "winter": [
+        "09:50",
+        "11:25"
+      ]
+    },
+    "6-7": {
+      "summer": [
+        "14:00",
+        "15:35"
+      ],
+      "winter": [
+        "13:30",
+        "15:05"
+      ]
+    }
+  },
+  "holidays": [
+    {
+      "start": "2026-10-01",
+      "end": "2026-10-07",
+      "name": "国庆节",
+      "skip_classes": true
+    }
+  ],
+  "alarm_minutes": 15,
+  "courses": [
+    {
+      "weekday": 1,
+      "period": "3-4",
+      "name": "高等数学",
+      "weeks": "4-6周(双),7-16周",
+      "campus": "主校区",
+      "location": "教2楼205",
+      "teacher": "张老师",
+      "note": "教学班：示例 261"
+    },
+    {
+      "weekday": 3,
+      "period": "1-2",
+      "name": "大学英语",
+      "weeks": "4-16周",
+      "campus": "主校区",
+      "location": "教1楼401",
+      "teacher": "李老师"
+    },
+    {
+      "weekday": 5,
+      "period": "6-7",
+      "name": "工程制图",
+      "weeks": "6-14周(双)",
+      "campus": "主校区",
+      "location": "教3楼302",
+      "teacher": "王老师"
+    },
+    {
+      "weekday": 5,
+      "period": "6-7",
+      "name": "新生研讨课",
+      "weeks": "5周,9-13周(单)",
+      "campus": "主校区",
+      "location": "教1楼506",
+      "teacher": "赵老师、钱老师"
+    },
+    {
+      "weekday": 3,
+      "period": "6-7",
+      "name": "数据结构（示例）",
+      "weeks": "4-6周(双),7-16周",
+      "campus": "主校区",
+      "location": "学10楼205",
+      "teacher": "孙老师"
+    }
+  ],
+  "allday": [
+    {
+      "summary": "军训",
+      "start": "2026-09-14",
+      "end": "2026-09-27",
+      "description": "入学教育、军训，共 2 周。全天，具体集合时间以学院通知为准。"
+    },
+    {
+      "summary": "期末考试周",
+      "start": "2027-01-04",
+      "end": "2027-01-17",
+      "description": "各科具体考试时间以教务处安排为准。"
+    }
+  ]
+}
