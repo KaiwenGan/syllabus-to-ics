@@ -42,7 +42,7 @@ unzip syllabus-to-ics-skill.zip -d syllabus-to-ics && cd syllabus-to-ics && bash
 **从源码**
 
 ```bash
-git clone https://github.com/<you>/syllabus-to-ics.git
+git clone https://github.com/KaiwenGan/syllabus-to-ics.git
 cd syllabus-to-ics
 pip install pymupdf      # 只有读 PDF 需要；文本输入不需要任何依赖
 ```

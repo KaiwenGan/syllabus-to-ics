@@ -82,7 +82,7 @@ gh repo create syllabus-to-ics --public --source=. --push
 推完给朋友这个地址，AI 能直接读：
 
 ```
-https://raw.githubusercontent.com/<你的用户名>/syllabus-to-ics/main/SKILL.md
+https://raw.githubusercontent.com/KaiwenGan/syllabus-to-ics/main/SKILL.md
 ```
 
 ## 卸载
